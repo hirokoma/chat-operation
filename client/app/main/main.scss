@@ -1,0 +1,83 @@
+.thing-form {
+  margin: 20px 0;
+}
+
+#banner {
+  border-bottom: none;
+  margin-top: -20px;
+}
+
+#banner h1 {
+  font-size: 60px;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+.hero-unit {
+  position: relative;
+  padding: 30px 15px;
+  color: #F5F5F5;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  background: #4393B9;
+}
+
+.navbar-text {
+  margin-left: 15px;
+}
+
+/* talk */
+
+.talk {
+    padding: 10px 20px;
+    font-size: 150%;
+}
+
+.talk:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.talk .left,
+.talk .right {
+    clear: both;
+    position: relative;
+    max-width: 80%;
+    padding: 10px 20px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+}
+
+.talk .left:before,
+.talk .right:before {
+    z-index: 1;
+    content: "";
+    position: absolute;
+    top: 10px;
+    width: 0;
+    height: 0;
+    border-top: 2px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid transparent;
+}
+
+.talk .left {
+    float: left;
+    background-color: WhiteSmoke;
+}
+.talk .left:before {
+    border-right: 10px solid WhiteSmoke;
+    left: -14px;
+}
+
+.talk .right {
+    float: right;
+    background-color: rgba(90,241,50,1);
+}
+.talk .right:before {
+    border-left: 10px solid rgba(90,241,50,1);
+    right: -14px;
+}
